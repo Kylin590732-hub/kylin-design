@@ -4563,6 +4563,9 @@ html:lang(zh-CN) body {
     opacity: .81;
 }
 .intro_sect .intro_shutter .loading_logo.back { opacity: .29; }
+@media (min-width: 1041px) {
+    .faq_sect[data-sect="faqSect"] { padding-bottom: clamp(48px, 5.5vw, 104px); }
+}
 .footer .footer_box .footer_info .footer_logo_box .footer_logo { width: clamp(68px, 7vw, 108px); }
 .kylin-footer-logo { border-radius: 0; }
 .footer .footer_intro { width: min(calc(100% - 32px), 1100px); }
